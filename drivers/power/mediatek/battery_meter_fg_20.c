@@ -3140,7 +3140,7 @@ signed int battery_meter_set_columb_interrupt(unsigned int val)
 static int battery_meter_probe(struct platform_device *dev)
 {
 	int ret_device_file = 0;
-	char *temp_strptr;
+	//char *temp_strptr;
 
 	bm_info("[battery_meter_probe] probe\n");
 	/* select battery meter control method */
