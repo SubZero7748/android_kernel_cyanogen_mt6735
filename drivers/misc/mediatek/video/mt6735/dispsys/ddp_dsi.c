@@ -2830,6 +2830,7 @@ int ddp_dsi_set_lcm_utils(DISP_MODULE_ENUM module, LCM_DRIVER *lcm_drv)
 	utils->set_gpio_mode = 0;
 	utils->set_gpio_dir = 0;
 	utils->set_gpio_pull_enable = 0;
+	utils->set_gpio_lcd_bias_enp = lcd_bias_enp_out;
 #endif
 #endif
 
